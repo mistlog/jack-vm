@@ -1,0 +1,16 @@
+function Sys.init 0
+call Sys.main 0
+pop temp 1
+label LOOP
+goto LOOP
+function Sys.main 0
+push constant 123
+call Sys.add12 1
+pop temp 0
+push constant 246
+return
+function Sys.add12 3
+push argument 0
+push constant 12
+add
+return

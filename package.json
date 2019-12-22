@@ -1,0 +1,28 @@
+{
+  "name": "jack-vm",
+  "version": "0.0.1",
+  "description": "vm implementation for jack in nand2tetris",
+  "main": "index.js",
+  "scripts": {
+    "build":"td ./src && sv ./src",
+    "clean":"ts-node ./script/clean.ts",
+    "test": "jest --coverage"
+  },
+  "author": "mistlog",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.12",
+    "@types/pngjs": "^3.3.2",
+    "filewalker": "^0.1.3",
+    "fs-extra": "^8.1.0",
+    "jest": "^24.9.0",
+    "pngjs": "^3.4.0",
+    "source-view": "0.0.2",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.3.0",
+    "typedraft": "0.0.3",
+    "typescript": "^3.6.2"
+  }
+}
