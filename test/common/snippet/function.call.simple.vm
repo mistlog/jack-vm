@@ -1,0 +1,8 @@
+call SimpleFunction.test 0
+label END
+goto END
+function SimpleFunction.test 0
+push constant 1
+push constant 2
+add
+return  
